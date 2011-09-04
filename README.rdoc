@@ -17,6 +17,7 @@ SweeyaCoreExt is group of core extensions. It adds funcionalities to classes:
   * md5 - returns md5 hash of a string
  
 == Install
+Add following line to Gemfile:
   gem 'sweeya_core_ext',:require=>'sweeya_core_ext' ,:git=>'git://github.com/radiokills/sweeya_core_ext.git'
 
 == Contributing to sweeya_core_ext
