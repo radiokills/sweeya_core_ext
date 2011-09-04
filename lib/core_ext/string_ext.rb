@@ -3,7 +3,9 @@ String.class_eval do
     self.gsub("\n\r","<br>").gsub("\r", "").gsub("\n", "<br />")
   end
   
-  
+  def br2nl
+    self.gsub("<br>","\n\r")
+  end
   
   def linkify
     text=self
