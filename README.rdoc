@@ -2,20 +2,23 @@
 
 SweeyaCoreExt is group of core extensions. It adds funcionalities to classes:
 * Time
-** to_nicedate - returns time and in Slovenian format (%d.%m.%Y %H:%M)
+  * to_nicedate - returns time and in Slovenian format (%d.%m.%Y %H:%M)
 * Date
-** to_nicedate - returns date in Slovenian format (%d.%m.%Y)
-** slovenian_month_short - returns month in Slovenian - short form e.g. Jan, Feb etc
-** slovenian_month_long - returns month in Slovenian - long form e.g. Januar, Februar etc
+  * to_nicedate - returns date in Slovenian format (%d.%m.%Y)
+  * slovenian_month_short - returns month in Slovenian - short form e.g. Jan, Feb etc
+  * slovenian_month_long - returns month in Slovenian - long form e.g. Januar, Februar etc
 * Datetime
-** to_slovenian_date - returns date in form 'Ponedeljek, 22.4.1999 ob 17:00', slovenian day names are used
+  * to_slovenian_date - returns date in form 'Ponedeljek, 22.4.1999 ob 17:00', slovenian day names are used
 * String
-** nl2br - replaces \\n with <br />
-** linkify - finds all urls, emails in string and returns them as links
-** urlize - replaces all non ascii chars with '-'
-** smart_split(n) - returns n chars from text, if there is no space at n char, then it gets word till the end
-** md5 - returns md5 hash of a string
+  * nl2br - replaces \\n with <br />
+  * linkify - finds all urls, emails in string and returns them as links
+  * urlize - replaces all non ascii chars with '-'
+  * smart_split(n) - returns n chars from text, if there is no space at n char, then it gets word till the end
+  * md5 - returns md5 hash of a string
  
+== Install
+  gem 'sweeya_core_ext',:require=>'sweeya_core_ext' ,:git=>'git://github.com/radiokills/sweeya_core_ext.git'
+
 == Contributing to sweeya_core_ext
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
