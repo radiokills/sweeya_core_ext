@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "sweeya_core_ext"
   gem.homepage = "http://github.com/radiokills/sweeya_core_ext"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Some useful extesion of String And Date/Time/Datetime classes"
+
   gem.email = "miha@virtiga.com"
-  gem.authors = ["radiokills"]
+  gem.authors = ["radiokills","Miha Mencin"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
