@@ -1,3 +1,4 @@
+# encoding: utf-8
 Date.class_eval do
   def to_nicedate
     self.strftime("%d.%m.%Y").to_s

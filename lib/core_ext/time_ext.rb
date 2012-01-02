@@ -1,3 +1,4 @@
+# encoding: utf-8
 Time.class_eval do
   
   def to_nicedate

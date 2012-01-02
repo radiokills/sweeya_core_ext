@@ -9,7 +9,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/radiokills/sweeya_core_ext"
   gem.license = "MIT"
   gem.summary = "Some useful extesion of String And Date/Time/Datetime classes"
-  gem.version = "0.0.0.5"
+  gem.version = "0.0.0.6"
   gem.email = "miha@virtiga.com"
   gem.authors = ["radiokills","Miha Mencin"]
   # dependencies defined in Gemfile

@@ -1,3 +1,4 @@
+# encoding: utf-8
 String.class_eval do
   def nl2br
     self.gsub("\n\r","<br>").gsub("\r", "").gsub("\n", "<br />")
