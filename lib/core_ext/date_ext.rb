@@ -14,7 +14,7 @@ Date.class_eval do
     months[self.month-1]
   end
   
-  def to_namded_date
+  def to_named_date
     wd=Array.new
     wd[0]='Nedelja'
     wd[1]='Ponedeljek'
