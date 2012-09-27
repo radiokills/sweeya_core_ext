@@ -3,10 +3,13 @@
 SweeyaCoreExt is group of core extensions. It adds funcionalities to classes:
 * Time
   * to_nicedate - returns time and in Slovenian format (%d.%m.%Y %H:%M)
+  * to_nicetime - returns time and in Slovenian format (%H:%M)
+
 * Date
   * to_nicedate - returns date in Slovenian format (%d.%m.%Y)
   * slovenian_month_short - returns month in Slovenian - short form e.g. Jan, Feb etc
   * slovenian_month_long - returns month in Slovenian - long form e.g. Januar, Februar etc
+  * to_named_date - returns date in format 'Ponedelje, 21.12.2011'
 * Datetime
   * to_slovenian_date - returns date in form 'Ponedeljek, 22.4.1999 ob 17:00', slovenian day names are used
 * String
